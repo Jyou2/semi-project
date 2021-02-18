@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+.contetnBox{
+    padding-top: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    width: 30vw;
+    margin: auto;
+}
+.titleBox{
+    font-size : 2em;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 2vh;
+    margin-bottom: 5vh;
+}
+
+
+.formBox{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.inputBox{
+    width: 90%;
+    /* border : 1px solid black; */
+    margin-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+.inputBox > a{
+    display: flex;
+}
+a > img {
+    margin: auto;
+}
+
+.inputBox > button {
+    width: 300px;
+    height: 45px;
+}
+
+#loginInp{
+    height: 5vh;
+}
+#pwInp{
+    height: 5vh;
+}
+
+
+@media screen and (max-width: 800px){
+    .contetnBox{
+        padding-top: 20px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        padding-bottom: 20px;
+        width: 80vw;
+        margin: auto;
+    }
+}
+
+
+@media all and (min-width:801px) and (max-width:1023px) {
+    .contetnBox{
+        padding-top: 20px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        padding-bottom: 20px;
+        width: 40vw;
+        margin: auto;
+    }
+}
+
+
+
+
+
+

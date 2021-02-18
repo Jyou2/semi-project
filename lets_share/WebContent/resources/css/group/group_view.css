@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+/* 로고, 타이틀 라인 */
+.top{
+    width: 50vw;
+    height: 12vh;
+    /* border : 1px solid black; */
+    margin: auto;
+    display: flex;
+    margin-bottom : 3vh;
+}
+.logo_box{
+    width : 12%;
+    height : 100%;
+    border : 2px solid black;
+    /* border-radius: 10%; */
+}
+.logo_box img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.title_box{
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 2.25em;
+    margin-left: 40px;
+}
+/* 해지 날짜가 지정됐을때의 박스*/
+.lastDate{
+	width: 50vw;
+	margin: auto;
+	text-align: center;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 1em;
+}
+.lastDate2{
+	width: 50vw;
+	margin: auto;
+	margin-bottom : 3vh;
+	text-align: center;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 1em;
+}
+
+/* content 박스 */
+.content{
+    width: 60vw;
+    height: 60vh;
+    border: 2px solid black;
+    border-radius: 1%;
+    margin: auto;
+    margin-top: 5vh;
+    display: flex;
+}
+.left_box{
+    width: 60%;
+    height: 100%;
+    /* border : 1px solid orange; */
+}
+
+.pay{
+    height: 30%;
+    /* border : 1px solid orange; */
+    display: flex;
+    align-items: flex-end;
+}
+
+.pay div{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.text{
+    height: 10%;
+    /* border : 1px solid orange; */
+    display: flex;
+    align-items: flex-end;
+}
+
+.text div{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.accountORbtn{
+    height: 30%;
+    /* border : 1px solid orange; */
+    display: flex;
+    flex-wrap:wrap;
+}
+.accountORbtn div{
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 100%;
+    text-align: center;
+    
+}
+.accountORbtn button{
+    width: 50%;
+    margin: auto;
+    height: 50%;
+    font-size: 1.5em;
+}
+
+
+.right_box{
+    width: 40%;
+    height: 100%;
+    /* border : 1px solid orange; */
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+
+.btn_box{
+    width: 100%;
+    height: 10%;
+    /* border : 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content : flex-end;
+}
+.btn_box > button{
+    margin-right: 10px;
+    background-image: url(../../images/pic02.jpg);
+    
+ 
+}
+
+
+.img_box{
+    width: 80%;
+    height: 60%;
+    /* border : 1px solid black; */
+    margin: auto;
+    margin-left: 0;
+    margin-top: -10vh;
+}
+.img_box img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+/* 캘린더 시작 */
+
+.calendar_box{
+    display: flex;
+}
+
+#calendar{
+	font-family: 'Noto Sans KR', sans-serif;
+	width:50vw;
+    margin-top:2%;
+    margin: auto;
+    text-align:center;
+}
+
+/* 캘린더 끝 */
+
+.bottom{
+    margin: auto;
+    margin-top: 5vh;
+    width: 50vw;
+    height: 10vh;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.bottom > div{
+    width: 50%;
+    /* border : 1px solid black; */
+    display: flex;
+}
+.bottom > div > button{
+    margin: auto;
+    background-image: url(../../images/pic15.jpg);
+}
+
+
+/* 그룹 대기 리스트*/
+.standByTitle{
+	display: flex;	
+}
+.standByTitle>div{
+	font-family: 'Noto Sans KR', sans-serif;
+	width: 50vw;
+	margin:auto;
+	margin-top : 3vh;
+	font-size: 2em;
+}
+
+.standByBox{
+    display: flex;
+}
+.standByTable{
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 50vw;
+    margin: auto;
+    margin-top : 1vh;
+}
+.standByTable td{
+	border : 1px solid #929291;
+}
+.standByTable  td > button{
+	margin : 3px;
+}
+.btn_approval{
+    background-image: url(../../images/pic11.jpg);
+}
+.btn_approval:hover{
+    background-image: url(../../images/pic12.jpg);
+}
+
+
+/* 멤버 테이블 */
+.memberTitle{
+    display: flex;	
+}
+.memberTitle>div{
+	font-family: 'Noto Sans KR', sans-serif;
+	width: 50vw;
+	margin:auto;
+	margin-top : 3vh;
+	font-size: 2em;
+}
+
+.memberBox{
+    width: 50vw;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* border : 1px solid black; */
+    margin: auto;
+    margin-top : 3vh;
+}
+
+.tbody>tr:nth-child(1){
+    border-top: 1px solid black;
+}
+
+.tbody>tr:nth-child(odd){
+    background-color: #e9e6e6;
+}
+
+/* 결제 정보 모달 */
+#ex1  h5, #ex2  h5, #ex3 h5{
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center;
+    font-size : 1.5em;
+    margin-bottom: 3vh;
+    margin-top : 1vh;
+}
+#ex1 > div{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.8em;
+}
+#ex1 > div > a{
+    font-weight: 1000;
+}
+.payBox{
+    margin: auto;
+    margin-top: 2vh;
+}
+.payBox > form {
+    display: flex;
+    justify-content : space-between;
+}
+.payBox  input{
+    width: 40%;
+}
+
+#servicePerDay ,#memberId, #groupId{
+    display: none;
+}
+
+
+/* 비밀번호 변경 모달 */
+#ex2 div{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.8em;
+    margin-top: 2vh;
+    display: flex;
+}
+
+#ex2 div > input{
+	margin: auto;
+}
+
+/* 그룹 탈퇴 */
+#ex3{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+#ex3 div{
+    
+    font-size: 0.7em;
+    margin-top: 1vh;
+    display: flex;
+}
+
+#ex3 div > input{
+	margin: auto;
+}
+
+/*그룹 해지*/
+#ex4{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+#ex4 div{
+    font-size: 0.7em;
+    margin-top: 1vh;
+    display: flex;
+}
+#ex4 div > input{
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+

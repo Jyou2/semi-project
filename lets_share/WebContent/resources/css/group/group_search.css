@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+.title{
+    font-family: 'Noto Sans KR', sans-serif;
+    /* border : 1px solid black; */
+    width : 63%;
+    height: 6vh;
+    font-size : 2em;
+    margin: auto;
+}
+.btn_box{
+    width : 63%;
+    height: 6vh;
+    /* border : 1px solid black; */
+    margin: auto;
+}
+.btn_box  button{
+    margin: 10px;
+}
+#btn_auto{
+    height: 5vh;
+    font-size: 0.8em;
+}
+/*  */
+.nodeBox{
+    width: 63%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap : wrap;
+    justify-content : space-around;
+}
+.node{
+    border : 1px solid black;
+    width : 40%;
+    height: 20vh;
+    margin-top: 30px;
+    display: flex;
+    cursor: pointer;
+}
+.leftBox{
+    width: 40%;
+    display: flex;
+    border: 1px solid black;
+}
+.imgBox{
+    margin: auto;
+    width: 70%;
+    height: 70%;
+}
+.imgBox>img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.rightBox{
+    width: 60%;
+    display: flex;
+    flex-wrap : wrap;
+    align-content:center;
+    border: 1px solid black;
+}
+.line1{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content : center;
+}
+.logoBox{
+    width: 20%;
+    height: 100%;
+}
+.logoBox>img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.nameBox{
+    width : 70%;
+    height: 100%;
+    display: flex;
+}
+
+.node h1{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: auto;
+    font-size: 1em;
+}
+.nameBox>h5{
+	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.1em;
+    margin: auto;
+}
+.line2{
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+.line3{
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+
+
+/*  */
+#ex1{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.calendar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 30vh;
+    border : 1px solid black;
+    border-radius: 10px;
+}
+.line{
+    height: 20%;
+    display: flex;
+}
+.date{
+    width: 14.2857%;
+    text-align: center;
+    cursor: pointer;
+    padding: 13px;
+}
+#ex1>button{
+    margin-top: 10px;
+    margin: auto;
+}
+
+#groupId, #service, #userPeriod{
+    display: none;
+}
+#ex2{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#ex3{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+#ex3>button{
+	margin-top: 10px;
+	margin:auto;
+}
+.modal2Box{
+    width: 100%;
+    height: 8vh;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content : space-between;
+    border-bottom:1px solid lightgray;
+    padding-bottom:1%;
+}
+.modal2Box > div{
+    cursor: pointer;
+    width: 16%;
+    height: 100%;
+    
+}
+.modal2Box > div > img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.modal2Box2{
+	margin-top:1%;
+}
+.line3 > button{
+	margin : auto;
+	background-image: url(../../images/pic15.jpg);
+}
+
+.btn{
+    height: 5vh;
+    font-size: 0.8em;
+}
+
+
+.paging{
+	margin-top:4vh;
+	display:flex;
+	text-align: center;
+	font-weight: 500;
+	justify-content: center;
+}
+
+.paging a{
+	display:flex;
+	color: white;
+	text-align: center;
+	background-color: #df7366;
+	border-color: white;
+	justify-content: center;
+	width: 30px;
+	height: 30px;
+	font-size: 15px;
+	line-height: 30px;
+	border: 1px solid #d8dce3;
+}
+
+
